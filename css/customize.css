@@ -1,1 +1,260 @@
 @charset "UTF-8";
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header.py-1 a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header.py-1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+a.py-2:first-child {
+  background-size: 14px 44px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 14px;
+  background-image: url(https://www.apple.com/ac/globalnav/7/ko_KR/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg);
+}
+a.py-2:nth-child(12){
+  background-size: 15px 88px;
+  background-repeat: no-repeat;
+  background-image: url('../img/svg/searchlogo.svg');
+  width: 15px;
+}
+a.py-2:nth-child(13){
+  background-size: 13px 44px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../img/svg/baglogo.svg');
+  width: 13px;
+}
+
+.site-header.sticky-top.py-2 {
+  background: #fbfbfd;
+  width: 100%;
+  position: relative;
+  height: 48px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+}
+.container span {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  text-align: center;
+  height: 48px;
+
+}
+.container span a.py-3 {
+  color: #06c;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+ .position-relative.overflow-hidden.p-3 {
+   background-image: url('../img/hero/iphone13/hero_iphone13pro_avail__iy77cld0zwii_largetall.jpg');
+   background-repeat: no-repeat;
+   height: 736px;
+   background-size: 3008px 736px;
+   background-position: center center;
+   background-color: #fbfbfd;
+ }
+h2.iphonese2{
+    height: 55px;
+    background-size: 221px 55px;
+    background-repeat: no-repeat;
+    background-image: url('../img/logo/iphone-se/logo_hero_iphonese__dtb7zrygggeq_largetall.png');
+    background-position: center;
+}
+.position-relative.overflow-hidden.p-4 {
+    background-image: url('../img/hero/iphone-se/hero_iphonese_avail__eg8srhcnpo66_largetall.jpg');
+    background-repeat: no-repeat;
+    height: 736px;
+    background-position: center;
+    background-size: 3008px 736px;
+    background-color: #fbfbfd;
+}
+.position-relative.overflow-hidden.p-4 a {
+  margin-bottom: 20px;
+}
+.position-relative.overflow-hidden.p-5 {
+  background-image: url('../img/hero/watch-series-7/hero_watch_lte__b8er858e34gi_largetall.jpg');
+  height: 736px;
+  background-size: 3008px 736px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fbfbfd;
+
+}
+h2.Watch {
+  height: 72px;
+  background-size: 188px 72px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../img/logo/watch-series-7/promo_logo_watch_lte__emrof7zzkriq_large.png');
+}
+.wwdc {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url('../img/promo/wwdc-announce/promo_wwdc_announce__dr6w8rxice4i_large.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-position: center;
+
+}
+h4.logo {
+  height: 38px;
+  background-size: 203px 38px;
+  background-repeat: no-repeat;
+  background-image: url('../img/logo/wwdc-announce/wwdc22_logo__f39kr8derwya_large.png');
+  background-position: center;
+}
+p.lead1 {
+  color: #c6e1e6;
+  max-width: 370px;
+  margin-top: 9px;
+}
+.protect {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url('../img/hero/slider-privacy/privacy__fzwalkil8paq_large.jpg');
+  background-position: center center;
+}
+h2.display-1 {
+  color: #f5f5f7;
+  font-size: 35px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+
+}
+.mac-studio {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url('../img/promo/mac-studio/promo_macstudio__gl7zppziivma_large.jpg');
+  background-position: center center;
+
+}
+h2.display-2 {
+ color: black;
+ font-size: 35px;
+ line-height: 1.1;
+ font-weight: 600;
+ letter-spacing: 0em;
+}
+.iPhone13 {
+  height: 580px;
+  background-size: 1262px 580px;
+  background-repeat: no-repeat;
+  background-image: url('../img/promo/iphne13/promo_iphone13_avail__frc36u35m0ii_large.jpg');
+  background-position: center center;
+}
+p.lead2 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: .016em;
+  margin-top: 4px;
+}
+.studio-display {
+  top: 44px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url('../img/promo/studio-display/promo_studiodisplay__b449sh436cdy_large.jpg');
+}
+.apple-tv {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-image: url('../img/promo/tv-plus-multishow/tile_freeshows__e35b5brgkmi6_large.jpg');
+}
+h4.logo2 {
+  height: 34px;
+  background-size: 86px 34px;
+  background-repeat: no-repeat;
+  background-image: url('../img/logo/tv-plus-multishow/logo__dcojfwkzna2q_large2.png');
+  background-position: center;
+}
+p.lead3 {
+  margin-top: 11px;
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: .016em;
+  color: #f5f5f7;
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }

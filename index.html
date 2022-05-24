@@ -2,198 +2,211 @@
 <html lang="ko">
 
 <head>
-  <title>bootstrap</title>
+  <title>Apple</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/customize.css">
 </head>
+
 <body>
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-    Launch static backdrop modal
-  </button>
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Apple"></a>
+      <a class="py-2 d-none d-md-inline-block" href="#">스토어</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">MAC</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">iPad</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">iPhone</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Watch</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Airpods</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">TV 및 홈</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Apple 독점 제공</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">액세서리</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">고객지원</a>
+      <a class="py-2" href="#"></a>
+      <a class="py-2" href="#"></a>
+    </div>
+  </nav>
+  <nav class="site-header sticky-top py-2">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <span>
+        <a class="py-3" href="#" aria-label="Product">온라인으로 쇼핑</a>
+        하고 무료 배송, 스페셜리스트 지원 등의 혜택을 받으세요.
+      </span>
+    </div>
+  </nav>
 
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
-        </div>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">iPhone 13 Pro</h1>
+      <p class="lead font-weight-normal">이게 바로 프로.</p>
+      <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+      <a class="btn btn-outline-secondary" href="#">구입하기</a>
+    </div>
+  </div>
+  <div class="position-relative overflow-hidden p-4 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <span class="iphonese">새로운</span>
+      <h2 class="iphonese2"></h2>
+      <p class="lead font-weight-normal">거침없는 파워. 실속있는 선택</p>
+      <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+      <a class="btn btn-outline-secondary" href="#">구입하기</a>
+    </div>
+  </div>
+  <div class="position-relative overflow-hidden p-5 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h2 class="Watch"></h2>
+      <h3 class="display">이제껏 가장 큰 디스플레이 탑재.</h3>
+      <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+      <a class="btn btn-outline-secondary" href="#">구입하기</a>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wwdc">
+      <div class="my-3 py-3">
+        <h4 class="logo"></h4>
+        <p class="lead1">WWDC(세계개발자회의)가 곧 찾아옵니다.<br>6월 6일-10일(태평양 연안 표준시),<br>온라인에서 만나요</p>
+        <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+      </div>
+    </div>
+    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden protect">
+      <div class="my-3 p-3">
+        <h2 class="display-1">개인 정보 보호. iPhone이니까.</h2>
+        <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
       </div>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Dropdown button
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden mac-studio ">
+      <div class="my-3 py-3">
+        <h2 class="display-2">Mac Studio</h2>
+        <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+        <a class="btn btn-outline-secondary" href="#">구입하기</a>
+      </div>
+    </div>
+    <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden protect iPhone13">
+      <div class="my-3 p-3">
+        <h2 class="display-2">iPhone13</h2>
+        <p class="lead2">일상을 위한 비상한 능력.</p>
+        <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+        <a class="btn btn-outline-secondary" href="#">구입하기</a>
+      </div>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">1</div>
-      <div class="col col-6">2</div>
-      <div class="col col-4">3</div>
-    </div>
-    <div class="row">
-      <div class="col">1</div>
-      <div class="col col-6">2</div>
-      <div class="col col-4">3</div>
-    </div>
-    <div class="row">
-      <div class="col col-auto col-md-6 img-box">
-        <img class="img-thumbnail" src="./img/thumb_nail01.jpg" alt="">
-      </div>
-      <div class="col text">
-        <h1>hi bootstrap!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col text">
-        <h1>hi bootstrap!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <!-- Button trigger modal -->
-      <div class="col col-auto col-md-6 img-box">
-        <img class="img-thumbnail" src="./img/thumb_nail01.jpg" alt="">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-        <button type="button" class="btn btn-primary">write</button>
-      </div>
-    </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <table class="table table-dark">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
 
-    <button type="button" class="btn btn-link">Link</button>
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary">Left</button>
-      <button type="button" class="btn btn-secondary">Middle</button>
-      <button type="button" class="btn btn-secondary">Right</button>
-    </div>
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary">Sign up</button>
-      <button type="button" class="btn btn-secondary">Login</button>
-    </div>
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-      </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-    <!-- js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      $ function functionName() {
 
-      }
-    </script>
-  </body>
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden studio-display">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Studio-Display</h2>
+        <p class="lead">And an even wittier subheading.</p>
+        <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+      </div>
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden apple-tv">
+      <div class="my-3 py-3">
+        <h4 class="logo2"></h4>
+        <p class="lead3">Apple 기기를 구입하면<br>Apple TV+가 3개월 무료.</p>
+        <a class="btn btn-outline-secondary" href="#">더 알아보기</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-6 col-md">
+        <h5>쇼핑 및 알아보기</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">스토어</a></li>
+          <li><a class="text-muted" href="#">Mac</a></li>
+          <li><a class="text-muted" href="#">iPad</a></li>
+          <li><a class="text-muted" href="#">iPhone</a></li>
+          <li><a class="text-muted" href="#">Watch</a></li>
+          <li><a class="text-muted" href="#">AirPods</a></li>
+          <li><a class="text-muted" href="#">TV 및 홈</a></li>
+          <li><a class="text-muted" href="#">iPod touch</a></li>
+          <li><a class="text-muted" href="#">AirTag</a></li>
+          <li><a class="text-muted" href="#">액세서리</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>서비스</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Apple Music</a></li>
+          <li><a class="text-muted" href="#">Apple TV+</a></li>
+          <li><a class="text-muted" href="#">Apple Arcade</a></li>
+          <li><a class="text-muted" href="#">iCloud</a></li>
+          <li><a class="text-muted" href="#">Apple Books</a></li>
+          <li><a class="text-muted" href="#">Apple Podcast</a></li>
+          <li><a class="text-muted" href="#">App Store</a></li>
+        </ul>
+        <h5>계정</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Apple ID관리</a></li>
+          <li><a class="text-muted" href="#">Apple Store 계정</a></li>
+          <li><a class="text-muted" href="#">iCloud.com</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Apple Store</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">매장찾기</a></li>
+          <li><a class="text-muted" href="#">Genius Bar</a></li>
+          <li><a class="text-muted" href="#">Today at Apple</a></li>
+          <li><a class="text-muted" href="#">Apple 캠프</a></li>
+          <li><a class="text-muted" href="#">Apple Store 앱</a></li>
+          <li><a class="text-muted" href="#">리퍼 및 특가 제품</a></li>
+          <li><a class="text-muted" href="#">금융혜택</a></li>
+          <li><a class="text-muted" href="#">Apple Trade In</a></li>
+          <li><a class="text-muted" href="#">주문상태</a></li>
+          <li><a class="text-muted" href="#">쇼핑도움말</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>비즈니스</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Apple과 비즈니스</a></li>
+          <li><a class="text-muted" href="#">비즈니스를 위한 제품 쇼핑하기</a></li>
+        </ul>
+        <h5>교육</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Apple과 교육</a></li>
+          <li><a class="text-muted" href="#">초중고용 제품 쇼핑하기</a></li>
+          <li><a class="text-muted" href="#">대학 생활을 위한 제품 쇼핑하기</a></li>
+      </div>
+      <div class="col-6 col-md">
+          <h5>Apple의 가치관</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">손쉬운 사용</a></li>
+            <li><a class="text-muted" href="#">환경</a></li>
+            <li><a class="text-muted" href="#">개인정보 보호</a></li>
+            <li><a class="text-muted" href="#">협력업체에 대한 책임</a></li>
+          </ul>
+          <h5>Apple 정보</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Newsroom</a></li>
+            <li><a class="text-muted" href="#">Apple 리더십</a></li>
+            <li><a class="text-muted" href="#">채용 안내</a></li>
+            <li><a class="text-muted" href="#">윤리 및 규정 준수</a></li>
+            <li><a class="text-muted" href="#">이벤트</a></li>
+            <li><a class="text-muted" href="#">일자리 창출</a></li>
+            <li><a class="text-muted" href="#">Apple 연락처</a></li>
+        </div>
+    </div>
+  </footer>
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $
+
+    function functionName() {
+
+    }
+  </script>
+</body>
+
 </html>
