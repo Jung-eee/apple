@@ -56,16 +56,54 @@ a.py-2:nth-child(13){
   font-size: 14px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 12px 0;
+  padding: 6px 0;
   text-align: center;
   height: 48px;
-
+  width: 100%;
+}
+.iphonese {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: .011em;
+}
+.font1-weight-normal {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: .004em;
+  margin-top: 6px;
+  color: #1d1d1f;
 }
 .container span a.py-3 {
   color: #06c;
 }
-
+.font-weight {
+  font-size: 56px;
+  font-weight: 600;
+}
+.weight-normal {
+  font-size: 28px;
+  font-weight: 400;
+}
+ .my-3, .my-5 {
+  margin-top: 0 !important;
+}
+.sh {
+  padding-top:  0 !important;
+}
+.btn-link {
+  color: #06c;
+  font-size: 18px;
+}
+.btn1 {
+  color: white;
+}
+.btn1:hover {
+  color: white;
+}
+.p-3 {
+  padding: 0 !important;
+}
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
@@ -105,6 +143,7 @@ h2.iphonese2{
 
 }
 h2.Watch {
+  margin-bottom: 30px;
   height: 72px;
   background-size: 188px 72px;
   background-repeat: no-repeat;
@@ -172,41 +211,55 @@ h2.display-2 {
   background-position: center center;
 }
 p.lead2 {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.2381;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .016em;
   margin-top: 4px;
 }
 .studio-display {
+  height: 580px;
   top: 44px;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   background-image: url('../img/promo/studio-display/promo_studiodisplay__b449sh436cdy_large.jpg');
 }
-.apple-tv {
+.apple-watch {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items:flex-start;
   height: 580px;
   background-repeat: no-repeat;
-  background-image: url('../img/promo/tv-plus-multishow/tile_freeshows__e35b5brgkmi6_large.jpg');
+  background-position: center;
+  background-image: url('../img/promo/whatch-series-7/promo_pride__6iq9ryajnw2q_large.jpg');
+}
+h3.display {
+  margin-bottom: 15px;
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: .004em;
+  margin-top: 6px;
+  color: #1d1d1f;
 }
 h4.logo2 {
   height: 34px;
   background-size: 86px 34px;
   background-repeat: no-repeat;
-  background-image: url('../img/logo/tv-plus-multishow/logo__dcojfwkzna2q_large2.png');
-  background-position: center;
+  background-image: url('../img/logo/watch-series-7/promo_logo_pride__dpzv5qdo3com_large.png');
+  background-position: center ;
 }
 p.lead3 {
   margin-top: 11px;
-  font-size: 21px;
+  font-size: 30px;
   line-height: 1.2381;
   font-weight: 400;
   letter-spacing: .016em;
-  color: #f5f5f7;
+  color: black;
+}
+h2.display-5 {
+  font-weight: 600;
 }
 
 .product-device {
@@ -239,8 +292,22 @@ p.lead3 {
   left: 5%;
   background-color: #e5e5e5;
 }
-
-
+footer {
+  background: #f5f5f7;
+  flex-basis: 25%;
+}
+.container.py-5 {
+  width: 100%;
+}
+footer h5 {
+  color:#1d1d1f;
+  font-size: 12px;
+  font-weight: bold;
+}
+.text-muted {
+  color: #424245;
+  font-size: 12px;
+}
 
 /*
  * Extra utilities
